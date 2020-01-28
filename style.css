@@ -1,0 +1,320 @@
+/*
+  Project Name : Page Builder
+  Author Company : Ewebcraft
+  Author Website : http://www.ewebcraft.com
+  Author Email : ewebcraft@gmail.com
+*/
+
+
+/* -- general styles -- */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700|Raleway:400,500,600,700,800|Montserrat');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #383838;
+    overflow-x: hidden;
+}
+
+
+h3 {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+a,
+button,
+.btn {
+    outline: none;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover,
+a:active,
+a:focus,
+button:hover,
+button:active,
+button:focus,
+.btn:hover,
+.btn:active,
+.btn:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    line-height: 26px;
+}
+
+img {
+    max-width: 100%;
+}
+
+div.module.parallax {
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.MoneyEarn-banner9 {
+    background-color: #401a86;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 0px 100px;
+    position: relative;
+}
+
+.MoneyEarn-banner9 .for-image {
+    position: relative;
+}
+
+.MoneyEarn-banner9 .for-image .banner-image {
+    bottom: -12.5%;
+    right: 0;
+    margin: 0;
+    position: absolute;
+    transform: translate(50%, 10%);
+    filter: drop-shadow(-8px 5px 5px rgb(34, 34, 34, 0.4))
+}
+
+
+
+@media (max-width: 980px) {
+    .MoneyEarn-banner9 .for-image .banner-image {
+        display: none;
+    }
+}
+
+.MoneyEarn-banner9 .banner-block h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.MoneyEarn-banner9 .banner-block hr {
+    border: 2px solid #fff;
+    margin: auto 0 20px;
+    width: 14%;
+    text-align: left;
+}
+
+.MoneyEarn-banner9 .banner-block p {
+    color: #fff;
+    margin: 24px 180px 0;
+}
+
+.MoneyEarn-banner9 .banner-block h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.MoneyEarn-banner9 .banner-block h1,
+.MoneyEarn-banner9 .banner-block h6 {
+    color: #fff;
+    display: inline-block;
+    font-size: 60px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.MoneyEarn-banner9 .banner-text h2 {
+    color: #2c2c2c;
+    font-family: raleway;
+    font-size: 44px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+.MoneyEarn-banner9 .banner-block .btn {
+    margin-top: 60px;
+    position: relative;
+    font-size: 24px;
+    color: #000;
+    border: 2px solid #a896b6;
+    border-radius: 25px;
+}
+
+.MoneyEarn-banner9 .banner-block .btn span {
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.MoneyEarn-banner9 .banner-text h4 {
+    color: #2c2c2c;
+    font-family: raleway;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.MoneyEarn-banner9 .banner-text p {
+    color: #272727;
+    margin-bottom: 0;
+}
+
+.MoneyEarn-banner9 .hvr-sweep-to-right::before {
+    background: #ae8648 none repeat scroll 0 0;
+}
+
+.MoneyEarn-banner9 .btn {
+    background-color: #fff;
+    border: medium none;
+    border-radius: 1px;
+    color: #ae8648;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.MoneyEarn-banner9 .btn:hover {
+    background-color: #0d1f50;
+    color: #fff;
+}
+
+.MoneyEarn-banner9 .banner-block .btn:hover::after {
+    color: #AE8648;
+}
+
+.MoneyEarn-banner9 .banner-block h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+
+#MoneyEarn_copyRight {
+    background-color: #1018425d;
+    padding: 30px 0;
+}
+
+#MoneyEarn_copyRight a {
+    color: #fff;
+}
+
+#MoneyEarn_copyRight .footer-detail h3 {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: inherit;
+    margin: 0;
+    display: inline-flex;
+}
+
+#MoneyEarn_copyRight .footer-detail a {
+    transition: all 0.3s ease 0s;
+}
+
+#MoneyEarn_copyRight .footer-detail a i.fa {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+#MoneyEarn_copyRight p {
+    margin: 0px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+
+/* ******* --MoneyEarn Responsive-- ******  */
+
+
+/* responsive  Document */
+
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 990px) {
+    br {
+        display: none;
+    }
+
+
+.buy-btn {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    z-index: 999;
+}
+
+}
+
+@media (max-width: 768px) {
+    .logo,
+    .MoneyEarn-banner9 {
+        text-align: center;
+    }
+    .banner-text {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .banner-text h1 {
+        float: none;
+    }
+    .MoneyEarn-banner9 .banner-block h1,
+    .MoneyEarn-banner9 .banner-block h6 {
+        font-size: 35px;
+    }
+    .btn-submit {
+        width: 90%;
+    }
+    #MoneyEarn_copyRight,
+    #MoneyEarn_copyRight p {
+        text-align: center;
+    }
+    #MoneyEarn_copyRight p {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:426px) {
+    .footer-detail h3 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner-text h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    span {
+        font-size: 30px;
+    }
+}
